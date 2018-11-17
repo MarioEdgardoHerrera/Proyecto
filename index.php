@@ -92,6 +92,7 @@
         echo "<br>";
         echo "<br>";
         Ver_tabla_de_posiciones($_SESSION["id_usuario"]);
+        
 
         echo"<p><a href='salir.php'>Salir</a>";
 

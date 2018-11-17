@@ -3,11 +3,10 @@ function menu_usuario()
 {
 ?>
 <div class="collection">
-    <a href="crear_liga.php" class="collection-item"><span class="badge"></span>Crear Liga</a>
-    <a href="#!" class="collection-item"><span class="badge"></span>Agregar Equipos</a>
-    <a href="#!" class="collection-item"><apan class="badge"></apan>Agregar Jugadores</a>
-    <a href="#!" class="collection-item"><span class="badge"></span>Suspender Equipo</a>
-    <a href="#!" class="collection-item"><span class="badge"></span>Suspender Jugador</a>
+    <a href="crear_liga.php" class="collection-item"><span class="badge"></span>Ver Liga</a>
+    <a href="ver_equipos.php" class="collection-item"><span class="badge"></span>Ver Equipos</a>
+    <a href="ver_jugadores.php" class="collection-item"><apan class="badge"></apan>Ver Jugadores</a>
+
 
   </div>
 

@@ -28,29 +28,6 @@
       require_once("formularios.php");
       require_once("funciones.php");
     
-
-      if($_POST['nombre'])
-      {
-        $Conex=conectar();
-
-        $nm=$_POST['nombre'];
-
-        $query="call Crear_liga('$nm')";
-      
-
-        $resultado= ejecutar($query,$Conex);  
-
-
-        ?>
-
-            <script type="text/javascript">
-            window.alert("Liga Creada");
-            document.location.href="index.php";
-          </script>    
-
-        <?PHP
-       }     
-
       ?>
 
     </head>
@@ -77,7 +54,7 @@
         echo"Bienvenido ". $_SESSION["usuario_valido"];
        //Formulario de Agregar Contacto
        // frm_Crear_liga();
-        Ver_ligas($_SESSION["id_usuario"]); 
+        Ver_jugadores($_SESSION["id_usuario"]); 
 
         echo"<br><br><a href='index.php'>regresar</a>";
         echo"<p><a href='salir.php'>Salir</a>";
@@ -100,4 +77,3 @@ pie_pagina();
       <script type="text/javascript" src="js/materialize.js"></script>
     </body>
   </html>
-        
